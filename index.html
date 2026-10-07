@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bases para Projeto Integrador Final da turma LOG N35 — Técnico em Logística. Materiais de Transportes e Distribuição, PPCP, Logística Reversa e Gestão da Qualidade.">
+  <title>Bases para Projeto Integrador Final | LOG N35</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm" aria-label="Navegação principal">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#topo">
+        <span class="brand-mark">PI</span>
+        <span>LOG N35</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#materiais">Materiais</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trilha">Trilha sugerida</a></li>
+          <li class="nav-item"><a class="nav-link" href="#orientacoes">Orientações</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="topo" class="hero">
+    <div class="container position-relative">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-8">
+          <span class="eyebrow">🎓 Técnico em Logística · Turma LOG N35</span>
+          <h1>Bases para Projeto Integrador Final</h1>
+          <p class="lead">Uma central organizada de referências para transformar dados, processos e decisões logísticas em um projeto final consistente, mensurável e profissional.</p>
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <a class="btn btn-senac btn-lg" href="#materiais">📚 Explorar materiais</a>
+            <a class="btn btn-outline-light btn-lg" href="#trilha">🧭 Ver trilha sugerida</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="hero-panel">
+            <div class="metric"><strong>4</strong><span>áreas integradas</span></div>
+            <div class="metric"><strong>7</strong><span>materiais únicos</span></div>
+            <div class="metric"><strong>1</strong><span>projeto final</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="intro-section py-5">
+      <div class="container">
+        <div class="section-heading text-center mx-auto">
+          <span class="section-kicker">Visão geral</span>
+          <h2>O que você encontrará aqui</h2>
+          <p>Os materiais estão separados por área para facilitar o estudo, a divisão de tarefas do grupo e a construção das evidências do Projeto Integrador.</p>
+        </div>
+        <div class="row g-3 mt-3">
+          <div class="col-6 col-lg-3"><div class="area-chip"><span>🚚</span><strong>Transportes</strong><small>carga, rotas, custos e indicadores</small></div></div>
+          <div class="col-6 col-lg-3"><div class="area-chip"><span>🏭</span><strong>PPCP</strong><small>MRP, capacidade e produção puxada</small></div></div>
+          <div class="col-6 col-lg-3"><div class="area-chip"><span>♻️</span><strong>Logística Reversa</strong><small>retorno, triagem, custos e destinação</small></div></div>
+          <div class="col-6 col-lg-3"><div class="area-chip"><span>✅</span><strong>Qualidade</strong><small>SGQ, ferramentas e controle estatístico</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="materiais" class="materials-section py-5">
+      <div class="container">
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-3 mb-4">
+          <div>
+            <span class="section-kicker">Biblioteca do projeto</span>
+            <h2 class="mb-1">Materiais para consulta e download</h2>
+            <p class="text-secondary mb-0">Use os filtros ou pesquise por tema, ferramenta ou palavra-chave.</p>
+          </div>
+          <div class="search-wrap">
+            <label class="visually-hidden" for="searchInput">Pesquisar materiais</label>
+            <span aria-hidden="true">🔎</span>
+            <input id="searchInput" class="form-control" type="search" placeholder="Ex.: MRP, roteirização, FMEA...">
+          </div>
+        </div>
+
+        <div class="filter-bar mb-4" role="group" aria-label="Filtrar materiais por área">
+          <button class="filter-btn active" data-filter="todos">Todos</button>
+          <button class="filter-btn" data-filter="transportes">🚚 Transportes</button>
+          <button class="filter-btn" data-filter="ppcp">🏭 PPCP</button>
+          <button class="filter-btn" data-filter="reversa">♻️ Logística Reversa</button>
+          <button class="filter-btn" data-filter="qualidade">✅ Qualidade</button>
+        </div>
+
+        <div id="materialsGrid" class="row g-4">
+          <article class="col-md-6 col-xl-4 material-item" data-category="transportes" data-search="transportes distribuição carga demanda frota roteirização última milha custos sla indicadores g1 g2 g3">
+            <div class="material-card h-100">
+              <div class="card-accent transportes"></div>
+              <div class="material-icon">🚚</div>
+              <div class="d-flex justify-content-between align-items-center mb-2"><span class="badge-area">Transportes e Distribuição</span><span class="file-type">PDF</span></div>
+              <h3>Case Didático de Transportes e Distribuição</h3>
+              <p>Material docente completo da LOG35 Planejados. Organiza o estudo em três frentes: carga/demanda/frota, roteirização/última milha e custos/indicadores, com explicações passo a passo e solução comentada.</p>
+              <ul class="mini-list"><li>📦 Cubagem, peso e capacidade</li><li>🗺️ Rotas, SLA e ocorrências</li><li>💰 Custos e indicadores</li></ul>
+              <div class="mt-auto pt-3"><a class="btn btn-download w-100" href="materiais/01_case_transportes_distribuicao.pdf" download>⬇️ Baixar material</a></div>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-xl-4 material-item" data-category="ppcp" data-search="ppcp planejamento programação controle produção mrp s&op pmp bom capacidade crp takt oee mtbf mttr kanban">
+            <div class="material-card h-100">
+              <div class="card-accent ppcp"></div>
+              <div class="material-icon">🏭</div>
+              <div class="d-flex justify-content-between align-items-center mb-2"><span class="badge-area">PPCP</span><span class="file-type">PDF</span></div>
+              <h3>Checklist Técnico de PPCP</h3>
+              <p>Guia estruturado para planejar uma operação de móveis planejados sob encomenda, conectando previsão de demanda, carteira de pedidos, MRP, capacidade, manutenção e programação da produção.</p>
+              <ul class="mini-list"><li>📋 MRP níveis 1 e 2 e BOM</li><li>⏱️ Capacidade, takt, setup e gargalos</li><li>🔧 OEE, MTBF, MTTR e manutenção</li></ul>
+              <div class="mt-auto pt-3"><a class="btn btn-download w-100" href="materiais/02_checklist_ppcp_tecnico.pdf" download>⬇️ Baixar material</a></div>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-xl-4 material-item" data-category="ppcp" data-search="ppcp análise crítica recursos fórmulas produção puxada mto engineer to order capacidade mtbf calendário processos pessoas tempos riscos dados">
+            <div class="material-card h-100">
+              <div class="card-accent ppcp"></div>
+              <div class="material-icon">📊</div>
+              <div class="d-flex justify-content-between align-items-center mb-2"><span class="badge-area">PPCP</span><span class="file-type">PDF</span></div>
+              <h3>PPCP — Recursos, Fórmulas e Análise Crítica</h3>
+              <p>Versão analítica que discute premissas, lacunas de dados e coerência do modelo produtivo. Ajuda o grupo a justificar decisões sem confundir hipóteses didáticas com dados reais.</p>
+              <ul class="mini-list"><li>🧠 Modelo híbrido puxado + MRP</li><li>📐 Fórmulas com variáveis e unidades</li><li>⚠️ Riscos, limites e plano de coleta</li></ul>
+              <div class="mt-auto pt-3"><a class="btn btn-download w-100" href="materiais/03_ppcp_analise_critica.pdf" download>⬇️ Baixar material</a></div>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-xl-4 material-item" data-category="reversa" data-search="logística reversa pós-venda pós-consumo rma triagem retorno custos destinação reciclagem recuperação indicadores sustentabilidade layout">
+            <div class="material-card h-100">
+              <div class="card-accent reversa"></div>
+              <div class="material-icon">♻️</div>
+              <div class="d-flex justify-content-between align-items-center mb-2"><span class="badge-area">Logística Reversa</span><span class="file-type">PDF</span></div>
+              <h3>Logística Reversa — Guia Técnico-Didático</h3>
+              <p>Roteiro para desenhar os fluxos de pós-venda e pós-consumo, estruturar motivos de retorno, triagem, recuperação de valor, destinação, recursos, custos e painel de indicadores.</p>
+              <ul class="mini-list"><li>↩️ Pós-venda e pós-consumo</li><li>🧰 Triagem, reparo e reaproveitamento</li><li>📈 Custos, KPIs e sustentabilidade</li></ul>
+              <div class="mt-auto pt-3"><a class="btn btn-download w-100" href="materiais/04_logistica_reversa_guia_tecnico.pdf" download>⬇️ Baixar material</a></div>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-xl-4 material-item" data-category="reversa" data-search="logística reversa log35 checklist recursos indicadores fórmulas auditoria base cubagem pós venda pós consumo fiscal jurídico pessoas infraestrutura sistemas kpi">
+            <div class="material-card h-100">
+              <div class="card-accent reversa"></div>
+              <div class="material-icon">🔄</div>
+              <div class="d-flex justify-content-between align-items-center mb-2"><span class="badge-area">Logística Reversa</span><span class="file-type">PDF</span></div>
+              <h3>Estruturação da Logística Reversa — LOG35</h3>
+              <p>Versão mais quantitativa e crítica, com auditoria da base, dimensionamento do fluxo reverso, fórmulas, indicadores operacionais/financeiros/ambientais e critérios de evidência.</p>
+              <ul class="mini-list"><li>🔍 Auditoria de cadastro e cubagem</li><li>🚛 Transporte reverso e infraestrutura</li><li>📊 KPIs por serviço, custo e ambiente</li></ul>
+              <div class="mt-auto pt-3"><a class="btn btn-download w-100" href="materiais/05_logistica_reversa_log35_analitico.pdf" download>⬇️ Baixar material</a></div>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-xl-4 material-item" data-category="qualidade" data-search="gestão qualidade sgq pdca ctq inspeção rastreabilidade não conformidade processo produção armazenagem expedição transporte instalação pós venda">
+            <div class="material-card h-100">
+              <div class="card-accent qualidade"></div>
+              <div class="material-icon">✅</div>
+              <div class="d-flex justify-content-between align-items-center mb-2"><span class="badge-area">Gestão da Qualidade</span><span class="file-type">PDF</span></div>
+              <h3>Gestão da Qualidade — Checklist Aplicado ao PI</h3>
+              <p>Material orientado ao Sistema de Gestão da Qualidade, com controles desde o cadastro e projeto do móvel até produção, armazenagem, expedição, transporte, instalação e pós-venda.</p>
+              <ul class="mini-list"><li>🔁 PDCA e fluxo de não conformidade</li><li>🎯 CTQs e critérios de aceitação</li><li>🔗 Rastreabilidade e responsabilidades</li></ul>
+              <div class="mt-auto pt-3"><a class="btn btn-download w-100" href="materiais/06_gestao_qualidade_checklist_pi.pdf" download>⬇️ Baixar material</a></div>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-xl-4 material-item" data-category="qualidade" data-search="gestão qualidade sete ferramentas qualidade cep controle estatístico fmea gut 5w2h msa capacidade pareto ishikawa histograma carta controle dispersão folha verificação">
+            <div class="material-card h-100">
+              <div class="card-accent qualidade"></div>
+              <div class="material-icon">📉</div>
+              <div class="d-flex justify-content-between align-items-center mb-2"><span class="badge-area">Gestão da Qualidade</span><span class="file-type">PDF</span></div>
+              <h3>Qualidade — Ferramentas, CEP e Fórmulas</h3>
+              <p>Guia analítico para aplicar as Sete Ferramentas da Qualidade, controle estatístico de processo e métodos como FMEA, GUT, 5W2H, MSA e análise de capacidade aos dados do projeto.</p>
+              <ul class="mini-list"><li>🧩 7 Ferramentas da Qualidade</li><li>📈 CEP e capacidade de processo</li><li>🛠️ FMEA, GUT, 5W2H e MSA</li></ul>
+              <div class="mt-auto pt-3"><a class="btn btn-download w-100" href="materiais/07_gestao_qualidade_estatistica.pdf" download>⬇️ Baixar material</a></div>
+            </div>
+          </article>
+        </div>
+        <div id="emptyState" class="empty-state d-none">😕 Nenhum material encontrado com esse filtro ou termo.</div>
+        <div class="duplicate-note mt-4">ℹ️ Um dos anexos de Gestão da Qualidade foi enviado duas vezes com conteúdo idêntico. Para manter a biblioteca organizada, ele aparece apenas uma vez no site.</div>
+      </div>
+    </section>
+
+    <section id="trilha" class="journey-section py-5">
+      <div class="container">
+        <div class="section-heading text-center mx-auto mb-5">
+          <span class="section-kicker">Integração entre áreas</span>
+          <h2>Trilha sugerida para construir o Projeto Integrador</h2>
+          <p>Os conteúdos podem ser desenvolvidos em paralelo, mas esta sequência ajuda a criar dependências lógicas entre decisões.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-step"><span class="step-number">1</span><div><h3>Diagnosticar a operação</h3><p>Valide SKUs, dados mestres, demanda, volumes, pesos, restrições e inconsistências antes de calcular.</p></div></div>
+          <div class="timeline-step"><span class="step-number">2</span><div><h3>Planejar produção e capacidade</h3><p>Defina o fluxo produtivo, recursos, MRP, capacidade, calendário, gargalos e indicadores do PPCP.</p></div></div>
+          <div class="timeline-step"><span class="step-number">3</span><div><h3>Desenhar distribuição e atendimento</h3><p>Dimensione carga e frota, crie rotas, trate ocorrências, estime custos e estabeleça SLAs.</p></div></div>
+          <div class="timeline-step"><span class="step-number">4</span><div><h3>Estruturar o fluxo reverso</h3><p>Determine como retornos, avarias, pós-consumo e resíduos serão coletados, triados, recuperados ou destinados.</p></div></div>
+          <div class="timeline-step"><span class="step-number">5</span><div><h3>Garantir qualidade e melhoria contínua</h3><p>Use CTQs, checklists, PDCA, Sete Ferramentas, CEP e planos de ação para tornar a solução verificável.</p></div></div>
+          <div class="timeline-step"><span class="step-number">6</span><div><h3>Consolidar o projeto final</h3><p>Integre processos, cálculos, custos, riscos, KPIs, evidências e recomendações em uma proposta única e coerente.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="orientacoes" class="orientation-section py-5">
+      <div class="container">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7">
+            <div class="orientation-card h-100">
+              <span class="section-kicker">Antes de começar</span>
+              <h2>Como usar esta biblioteca</h2>
+              <div class="row g-3 mt-2">
+                <div class="col-md-6"><div class="tip"><span>1️⃣</span><p><strong>Leia o contexto primeiro.</strong> Entenda a empresa-modelo e as premissas antes de copiar fórmulas ou parâmetros.</p></div></div>
+                <div class="col-md-6"><div class="tip"><span>2️⃣</span><p><strong>Diferencie dado de hipótese.</strong> Valores ilustrativos precisam ser validados ou claramente declarados no projeto.</p></div></div>
+                <div class="col-md-6"><div class="tip"><span>3️⃣</span><p><strong>Mostre a memória de cálculo.</strong> Fórmula, variáveis, unidade, substituição numérica e interpretação devem aparecer juntos.</p></div></div>
+                <div class="col-md-6"><div class="tip"><span>4️⃣</span><p><strong>Produza evidências.</strong> Fluxogramas, tabelas, mapas, checklists, dashboards e planos de ação sustentam as conclusões.</p></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="final-box h-100">
+              <span class="icon">🎯</span>
+              <h3>Objetivo final</h3>
+              <p>Construir uma proposta logística integrada para a LOG35 Planejados, conectando produção, distribuição, retorno e qualidade com decisões fundamentadas em dados.</p>
+              <hr>
+              <p class="small mb-0"><strong>Importante:</strong> os materiais são referências de construção. O grupo deve adaptar, justificar e integrar os conteúdos — não apenas reproduzi-los.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <div><strong>LOG N35</strong> · Bases para Projeto Integrador Final</div>
+      <div class="footer-note">Técnico em Logística · Material de apoio acadêmico</div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
